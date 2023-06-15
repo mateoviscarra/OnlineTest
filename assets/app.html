@@ -1,0 +1,10 @@
+<script>
+    document.addEventListener('click', function(event) {
+        var checklistContainer = document.getElementById('checklist_container');
+        var kdeButton = document.getElementById('kde-button');
+
+        if (!checklistContainer.contains(event.target) && !kdeButton.contains(event.target)) {
+            checklistContainer.style.display = 'none';
+        }
+    });
+</script>
