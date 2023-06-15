@@ -1,0 +1,77 @@
+a.leaflet-control-zoom-in, a.leaflet-control-zoom-out {
+    background-color: #302f2f !important; ;  /* Fondo negro */
+    color: #F2F2F2 !important; /* Letras amarillas */
+}
+
+a.leaflet-control-zoom-in:hover, a.leaflet-control-zoom-out:hover {
+    background-color: #302f2f !important;  /* Fondo gris oscuro cuando el ratón está encima */
+    color: #F2F2F2 !important;  /* Letras amarillas */
+}
+
+/* Estilos para el control de capas */
+.leaflet-control-layers-expanded {
+    background-color: #302f2f !important;  /* Fondo negro */
+    color: #F2F2F2 !important;  /* Letras amarillas */
+}
+
+.leaflet-control-layers-expanded:hover {
+    background-color: #302f2f !important; /* Fondo gris oscuro cuando el ratón está encima */
+    color: #F2F2F2 !important; /* Letras amarillas */
+}
+
+/* Estilos para los items del control de capas */
+.leaflet-control-layers-selector + span {
+    color: #F2F2F2 !important; /* Letras amarillas */
+}
+
+.leaflet-control-layers-selector + span:hover {
+    color: #F2F2F2!important; /* Letras amarillas */
+}
+
+/* Estilos para el control de capas */
+.leaflet-control-layers-expanded.leaflet-control {
+    background-color: #000 !important; /* Fondo negro con prioridad */
+    color: #F2F2F2 !important; /* Letras amarillas con prioridad */
+}
+
+.leaflet-control-layers-expanded.leaflet-control:hover {
+    background-color: #555 !important; /* Fondo gris oscuro cuando el ratón está encima con prioridad */
+    color: #ff0 !important; /* Letras amarillas con prioridad */
+}
+
+/* Estilos para el icono del control de capas colapsado */
+.leaflet-control-layers-toggle .leaflet-control-layers-toggle-icon {
+    color: #ff0 !important; /* Color amarillo para el icono */
+}
+
+/* Estilos para el enlace del control de capas colapsado */
+.leaflet-control-layers-toggle {
+    background-color: #555 !important; 
+    color: #ff0 !important; /* Color amarillo para el enlace */
+}
+
+input[type="checkbox"] {
+    margin-right: 7px;
+}
+
+.dcc-slider-custom .rc-slider-track {
+    background-color: #2DB89E!important;
+}
+
+.dcc-slider-custom .rc-slider-handle {
+    border: solid 2px #2DB89E !important;
+}
+
+.iBXht {
+    width: 100% !important;
+}
+
+.Select-menu-outer {
+    background: #333;
+    color: #fff;
+}
+
+.Select-value-label {
+    color: #fff !important;
+}
+
