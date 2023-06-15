@@ -5,6 +5,9 @@ from layout.layout import layout, opciones_clases,opciones_bancos,opciones_agenc
 from callbacks.callbacks import load_data_and_dropdowns, generate_map, generate_gson, filter_df,toggle_offcanvas,export_dataframe,update_options_dp,update_slider,update_dataframe
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CYBORG])
+
+server = app.server
+
 #suppress_callback_exceptions=True
 app.layout = layout
 
