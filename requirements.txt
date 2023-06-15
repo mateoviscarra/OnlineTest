@@ -3,5 +3,3 @@ pandas
 gunicorn
 dash_bootstrap_components
 dash.dependencies
-layout.layout
-callbacks.callbacks
